@@ -1,0 +1,18 @@
+server {
+    client_max_body_size 25m;
+
+    location / {
+        root /var/www/html;
+
+        error_page 404 /app/index.html;
+    }
+
+    location /photos/ {
+        return 403;
+    }
+
+    location ~* ^/photos/.+ {
+        autoindex on;
+        root /var/www;
+    }
+}
