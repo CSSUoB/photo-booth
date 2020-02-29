@@ -15,4 +15,4 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 apt-get update
 
 # install base commands
-apt-get -y install nginx certbot python-certbot-nginx docker.io nodejs yarn
+apt-get -y install nginx certbot python-certbot-nginx rssh nodejs yarn
