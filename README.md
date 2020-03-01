@@ -3,7 +3,7 @@
 Code to be used for the photo booth at the CSS ball 2020.
 
 **NOTE**: this is fairly hacky code written by someone who had no idea how to
-*use Gatsby. Therefore, it's a bit... crap.
+use Gatsby. Therefore, it's a bit... crap.
 
 ## Development
 
